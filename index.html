@@ -15,7 +15,14 @@
 	<script type="text/javascript" src="js/garden.js"></script>
 	<script type="text/javascript" src="js/functions.js"></script>
 </head>
-
+<body style="background-color: white;">
+  <h1>jQuery change background color</h1>
+  <button id="btn">Change background</button>
+  <script>
+    $("#btn").click(function(){
+      $("body").css("background-color","white");
+    })
+  </script>
 <body>
 <div id="mainDiv">
 	<div id="content">
