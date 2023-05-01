@@ -28,6 +28,11 @@ body {
   bottom: 10px;
   right: 10px;
 }
+#image1 {
+  position: fixed;
+  bottom: 10px;
+  right: 160px;
+}
 
 #elapseClock {
     text-align: right;
