@@ -44,6 +44,9 @@ body {
 .image:nth-of-type(3) {
   right: 310px;
 }
+.image:nth-of-type(4) {
+  right: 460px;
+}
 
 .image1 {
   position: fixed;
